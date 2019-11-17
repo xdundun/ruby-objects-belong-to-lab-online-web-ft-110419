@@ -1,14 +1,10 @@
 class Artist
   attr_accessor :name, :genre
 
-  def initialize(name, genre)
-    @name = name
-    @genre = genre
-    puts name
-  end
+  # def initialize(name, genre)
+  #   @name = name
+  #   @genre = genre
+  #   puts name
+  # end
 
 end
-
- artist = Artist.new
- artist.name = "Beyonce"
-# puts beyonce.name
