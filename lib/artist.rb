@@ -4,9 +4,10 @@ class Artist
   def initialize(name, genre)
     @name = name
     @genre = genre
+    puts name
   end
 
 end
 
-beyonce = Artist.new("Beyonce", "R&B")
-puts beyonce.name
+# beyonce = Artist.new("Beyonce", "R&B")
+# puts beyonce.name
