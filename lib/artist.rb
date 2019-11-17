@@ -9,5 +9,5 @@ class Artist
 
 end
 
-# beyonce = Artist.new("Beyonce", "R&B")
+ artist = Artist.new
 # puts beyonce.name
